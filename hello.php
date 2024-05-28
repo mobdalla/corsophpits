@@ -1,8 +1,5 @@
-<h1>
-<?php 
-    $saluto = 'Hello World!';
-    echo $saluto;
-    
-#    phpinfo();
-?>
-</h1>
+
+<?php include 'script.php'; ?>
+
+
+<h1><?=$saluto.' '.$name ?></h1>  
