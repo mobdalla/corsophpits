@@ -9,8 +9,8 @@
 <body>
    <h1><?=TITOLO?></h1>
    <div id="console">
-    <div><img id ="dado1" scr="" alt=""></div>
-    <div><img id ="dado2" scr="" alt=""></div>
+    <div><img id ="dado1" scr="./dadi/f2.jpg" alt=""></div>
+    <div><img id ="dado2" scr="./dadi/f3.jpg" alt=""></div>
    </div>
 </body>
 </html>
