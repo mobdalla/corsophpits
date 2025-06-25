@@ -1,0 +1,18 @@
+.form{
+    background-color: aqua;
+    position: relative;
+    left: 40%;
+    bottom:  40%;
+    width: 400px;
+    height: 500px;
+}
+form{
+    background-color: black;
+    margin-right: 200px;
+}
+#email,#password{
+    height: 20px;
+    width: 300;
+    border: 3px solid black;
+    margin-bottom: 20px ;
+}

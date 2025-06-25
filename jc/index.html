@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+  <?php include 'trianing.php' ; ?>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <form action="?page=galleria" method="post">
+      <input type="hidden" name="azione" value="decrementa">
+      <input type="hidden" name="counter" value="<?=$counter?>">
+      <button class="btn btn-danger">-</button>
+  </form>
+  
+  <form action="?page=galleria" method="post">
+      <input type="hidden" name="azione" value="incrementa">
+      <input type="hidden" name="counter" value="<?=$counter?>">
+      <button class="btn btn-success">+</button>
+  </form>
+  
+  <div id="result">
+  
+      <img src="<?=$immagini[$counter]?>" alt="">    
+  
+  
+  </div>
+  </body>
+</html>
